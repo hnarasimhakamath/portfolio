@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+}
+
+
+body{
+	background: url(images/bg.jpg);
+
+	background-size: cover;
+}
+
+.mainpage{
+	width: 100%;
+	height: 100%;
+}
+
+.navbar{
+	width: 100%;
+}
+
+.bar{
+	background-color: #fff;
+	width: 100%;
+}
+
+
+.bar ul{
+	width: 100%;
+	list-style: none;
+	flex-direction: row;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+
+.bar ul li{
+	flex: auto;
+	text-align: center;
+}
+
+.bar ul li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 2vh;
+}
+
+
+.bar ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.main{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contentbox{
+	border: 10%;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.6);
+	width: 40%;
+	height: 60%;	
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	flex: auto;
+	align-items: center;
+	color: #fff;
+}
+
+.propic{
+	border-radius: 50%;
+	margin-top: 5%;
+	width: 35%;
+	width: 35%;
+}
+
+
+.formtitle{
+	padding: 0
+}
+
+p{
+	padding-top: 2vh;
+}
+
+.socialmedia{
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+}
+
+.smpic{
+	border-radius: 50%;
+	width: 45%;
+	height: 45%;
+	border: 0;
+	padding: 0;
+}
+
+
+.current{
+	background-color: #079992;
+}
+
+
+
+
+.formcontrol{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 2px solid green;
+	color: #fff;
+	align-items: center;
+	flex: auto;
+	margin-top: 2vh;
+	justify-content: center;
+	text-align: center;
+}
+
+.qual{
+	width: 50%;
+	height: 10vh;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.button{
+	padding: 2vh;
+	border: 4px solid yellow;
+}	
+
+
+.gal{
+	margin-top: 5%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery{
+	width: 100%;
+}
+
+.pic{
+	width: 50%;
+	height: 50%;
+	padding: 1%;
+	margin: 1%;
+}
+
+.aws{
+	width: 80%;
+	padding: 5% 0;
+}
+
+.aws h2, h4, p{
+	padding: 2%;
+}
+
+.res{
+	width: 50%;
+	padding: 10% 0;
+	margin-bottom: 5%;
+	padding: 2%;
+}
+
+.con{
+	width: 40%;
+	padding: 5% 0;
+}
+
+.contentbox h2{
+	padding-top: 5%;
+}
+
+
+.single{
+	text-align: center;
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+
+}
+
+.single{
+	background-color: #fff;
+	color: #000;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.foot{
+	margin-top: 10%;
+	text-align: center;
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+
+}
+
+
+
+.scrollpage{
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+ 
+
+.bar ul{
+	width: 100%;
+	list-style: none;
+	flex-direction: column;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.bar ul li{
+	font-size: 0.5em;
+	text-align: center;
+}
+
+.bar ul li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 1vh;
+}
+.contentbox{
+	width: 70%;
+}
+
+.propic{
+	width: 20%;
+	height: 20%;
+}
+.socialmedia{
+	margin-top: 5%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.smpic{
+	width: 10%;
+	height: 10%;
+}
+
+.contentbox p,h2,h4{
+	font-size: 0.8em;
+	padding: 0 2%;
+}
+
+.res h3, p{
+	font-size: 0.5em;
+}
+
+.con{
+	width: 80%;
+}
+
+.con h2{
+	font-size: 0.5em;
+	padding: 2% 0;
+}
+
+.formcontrol{
+	width: 100%;
+	font-size: 1em;
+	justify-content: center;
+	align-self: center;
+	height: 50%;
+}
+
+
+.button{
+	padding: 1vh;
+	border: 1px solid yellow;
+}	
+
+form{
+	font-size: 0.5em;
+}
+
+.gal{
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.gallery{
+	width: 100%;
+}
+
+.pic{
+	width: 50%;
+	height: 50%;
+	padding: 1%;
+	margin: 1%;
+}
+
+.foot, .single{
+	font-size: 0.5em;
+}
+
+
+
+
+}
+
+
